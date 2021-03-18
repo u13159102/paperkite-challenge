@@ -6,7 +6,7 @@ This challenge is all about us getting an understanding of the way you approach 
 
 After receiving the design signoff from the client we are now ready to build the next stage of the Coca-Cola Vend App. We have been provided the following 3 states from our design team and need to implement an API for our mobile teams (Android & iOS) to consume so that they can get underway.
 
-To do this, we first need to consume the Product and Promotion data from Coke's systems. We’ve been provided with the following URL and brief documentation to go with it. Coke have said we can’t call this anymore frequently than every 5 minutes because their system can’t handle the load.
+To do this, we first need to consume the product and promotion data from Coke's systems. We’ve been provided with the following URL and brief documentation to go with it. Coke have said we can’t call this anymore frequently than every 5 minutes because their system can’t handle the load.
 
 The URL is: [Products](https://ncakqcujsk.execute-api.ap-southeast-2.amazonaws.com/PKTechTest/products)
 
@@ -25,7 +25,7 @@ These screen descriptions might help you understand what the problem is, and how
 
 ![alt text](/images/state1.png "State 1")
 
-This screen simply lays out the available products at the current vending machine that is being used (Apps will scan a QR code and this will dictate which machine a user is at). There is no need to worry about the Cart Icon or animations for now, this will be implemented in a later sprint.
+This screen simply lays out the available products at the current vending machine that is being used (apps will scan a QR code and this will dictate which machine a user is at). There is no need to worry about the cart icon or animations for now, this will be implemented in a later sprint.
 
 **State 2:**
 
@@ -37,7 +37,7 @@ This screen lays out the promotions that are available at any one time. When tap
 
 ![alt text](/images/state3.png "State 3")
 
-This screen is where a user can select the drinks for their promotion (1 drink per slot), which will then be added to the cart (Cart to be worked on in another sprint).
+This screen is where a user can select the drinks for their promotion (1 drink per slot), which will then be added to the cart (cart will be worked on in another sprint).
 
 ## Frontend
 
@@ -45,4 +45,4 @@ Now consume your API and build a front end to display the data. This can be in w
 
 ## Infrastructure 
 
-We know that on average, the Coke API can have up to ~400k requests per day, with peak time spread throughout. With this kind of knowledge, and any other AWS knowledge you may have, attempt to detail out an approach for what kind of systems / services you'd expect for this piece of software. Add any caveats that you suspect might be required. Feel free to commit your approach to the Repo in a README format.
+We know that on average, the Coke API can have up to ~400k requests per day, with peak time spread throughout. With this kind of knowledge, and any other AWS knowledge you may have, attempt to detail out an approach for what kind of systems / services you'd expect for this piece of software. Add any caveats that you suspect might be required. Feel free to commit your approach to the repo in a README format.
