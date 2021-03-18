@@ -37,7 +37,7 @@ This screen lays out the promotions that are available at any one time. When tap
 
 ![alt text](/images/state3.png "State 3")
 
-This screen is where a user can select the drinks for their promotion (1 per drink slot), which will then be added to the cart (Cart to be worked on in another sprint).
+This screen is where a user can select the drinks for their promotion (1 drink per slot), which will then be added to the cart (Cart to be worked on in another sprint).
 
 ## Frontend
 
