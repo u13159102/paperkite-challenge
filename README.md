@@ -31,7 +31,7 @@ This screen simply lays out the available products at the current vending machin
 
 ![alt text](/images/state2.png "State 2")
 
-This screen lays out the promotions that are available at any one time. When tapping on the purchase button per promotion, you will be presented with the dialogue box (screen below). 
+This screen lays out the promotions that are available at any one time. When tapping on the promotion's purchase button, you will be presented with the dialogue box (screen below). 
 
 **State 3:**
 
