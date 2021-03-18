@@ -21,7 +21,7 @@ If you have any questions, feel free to ping jacob@paperkite.co.nz or kate@paper
 
 These screen descriptions might help you with understanding what the problem is, and how you might solve it. Consider how much data you send and how many requests the phone needs to make to render these screens. If you are not sure, please ask!
 
-**State 1:**x`
+**State 1:**
 
 ![alt text](/images/state1.png "State 1")
 
