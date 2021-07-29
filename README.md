@@ -15,7 +15,7 @@ When creating our API for the Mobile team, it’s worth thinking about the follo
 - How can we ensure the end user has the best, quickest experience possible
 - How can we make sure that what we are returning via our API fits the spec we give to our Mobile Devs
 
-If you have any questions, feel free to ping jacob@paperkite.co.nz or daniel@paperkite.co.nz, and we'll find out the answers to any questions you may have, and get back to you.
+If you have any questions, feel free to ping montgomery.anderson@paperkite.co.nz or daniel@paperkite.co.nz, and we'll find out the answers to any questions you may have, and get back to you.
 
 ## Screen Descriptions
 
