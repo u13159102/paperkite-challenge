@@ -1,8 +1,17 @@
 # Backend Candidate Challenge
 
-This challenge is all about us getting an understanding of the way you approach problems, and a chance to flex your technical skills in the context of a potential PK project. The goal is to get as far as you can, but don’t feel pressure to spend more than 4 hours on it. We’ll talk about what you would have done with more time in the final interview. Have fun with it and let us know if you have any questions!
+This challenge is all about us getting an understanding of the way you approach problems, and a chance to flex your technical skills in the context of a potential PK project. The goal is to get as far as you can, but don’t feel pressure to spend more than 4 hours on it.
+
+- For the backend implementation, please use Ruby on Rails.
+- For any front-end implementation, feel free to use whatever you wish.
+- To submit your challenge, create a pull request on this repo.
+- If you have any thoughts on infrastructure, feel free to capture them in the pull request.
+
+Don't feel like you have to finish everything, we’ll talk about what you would have done with more time in the final interview. Have fun with it and let us know if you have any questions!
 
 ---
+
+## Introduction
 
 After receiving the design signoff from the client we are now ready to build the next stage of the Coca-Cola Vend App. We have been provided the following 3 states from our design team and need to implement an API for our mobile teams (Android & iOS) to consume so that they can get underway.
 
