@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-header">
+    What will it be?
+    <div class="sub-header">
+      Select your drink
+    </div>
+  </div>
+
+  <div class="vendor-items">
+    <% @vendor.products.each do |product| %>
+      <div class="item-image-icon">
+        <% image_url = product.image_name ? product.image_name : "https://cdn-icons-png.flaticon.com/512/2892/2892731.png" %>
+        <%= image_tag image_url, class: "item-image" %>
+      </div>
+    <% end %>
+  </div>
+
+  <%= link_to "View Promotions", vendor_promos_path(outlet: @vendor.outlet, plateNumber: @vendor.plate), class: "button"  %>
+</div>

@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require 'pathname'
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', Pathname.new(__FILE__).realpath)
+
+require 'rubygems'
+require 'bundler/setup'
+
+if ARGV.include?('-C')
+  sidekiq_config_path = ARGV.at(ARGV.find_index('-C') + 1)
+  raise "The specified Sidekiq config file could not be found: #{sidekiq_config_path}" unless File.exist?(sidekiq_config_path)
+else
+  ARGV << '-C' << 'config/sidekiq.yml'
+end
+
+load Gem.bin_path('sidekiq', 'sidekiq')

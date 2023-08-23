@@ -1,0 +1,11 @@
+:concurrency: 4
+:scheduler:
+  :dynamic: true
+:max_retries: 0
+:pidfile: ./tmp/pids/sidekiq.pid
+:logfile: ./log/sidekiq.log
+:queues:
+  - default
+  - [low, 1]
+  - [medium, 2]
+  - [high, 3]

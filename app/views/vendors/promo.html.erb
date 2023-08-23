@@ -1,0 +1,22 @@
+<div class="header">
+  PROMOTIONS
+  <div class="card">
+    <div class="card-header ">
+      <%= @promo.promotion_description %>
+      <div class="sub-header">
+        Select your 1st drink
+      </div>
+    </div>
+
+    <div class="vendor-items">
+      <% @promo.products.each do |product| %>
+        <div class="item-image-icon">
+          <% image_url = product.image_name ? product.image_name : "https://cdn-icons-png.flaticon.com/512/2892/2892731.png" %>
+          <%= image_tag image_url, class: "item-image" %>
+        </div>
+      <% end %>
+    </div>
+
+    <%= link_to "Add to cart", "#", class: "button"  %>
+  </div>
+</div>

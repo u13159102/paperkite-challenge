@@ -1,0 +1,24 @@
+<div class="card promotions">
+  <div class="card-header promo-header">
+    PROMOTIONS
+    <div class="menu-header">
+      Today's Deals
+    </div>
+  </div>
+
+  <div class="promotions">
+    <% @vendor.promotions.each do |promo| %>
+      <div class="promo-card">
+        <div class="promo-text">
+          <div class="description">
+            <%= promo.promotion_description %>
+          </div>
+
+          <%= link_to "Purchase", vendor_promo_path(outlet: @vendor.outlet, plateNumber: @vendor.plate, promo_id: promo.promotion_id), class: "promo-button"  %>
+        </div>
+        <% image_url =  "https://www.freepnglogos.com/uploads/drinks-png/drinks-new-york-beverage-largest-wholesale-retail-beverage-39.png" %>
+        <%= image_tag image_url, class: "promo-image" %>
+      </div>
+    <% end %>
+  </div>
+</div>

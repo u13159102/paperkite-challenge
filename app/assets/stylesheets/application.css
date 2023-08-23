@@ -1,0 +1,156 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@300&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    width: 500px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #c22323;
+    border-radius: 25px;
+}
+
+.card {
+    margin: auto;
+    width: 450px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #c22323;
+    overflow: scroll;
+    background-color: white;
+}
+
+.promotions {
+    background-color: #ed2828;
+    border-color: #ed2828;
+    color: white;
+}
+
+.promo-card {
+    background-color: white;
+    margin: 32.5px 10px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.promo-text {
+    display: inline-block;
+
+}
+
+.description {
+    font-size: 30px;
+    color: #666666;
+    position: relative;
+    bottom: 40px;
+}
+
+.promo-image {
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    right: -80px;
+}
+
+.card-header {
+    font-family: 'Lato', sans-serif;
+    color: #c22323;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.promo-header {
+    color: white;
+    z-index: 5;
+}
+
+.sub-header {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.menu-header {
+    color: white;
+    font-size: 20px;
+    /*margin: 10px;*/
+}
+
+.button {
+    margin: 20px auto;
+    width: 250px;
+    height: 50px;
+    display: block;
+    background-color: #c22323;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-top: 8px;
+    color: white;
+}
+
+.promo-button {
+    /*margin: 20px auto;*/
+    width: 120px;
+    height: 35px;
+    display: block;
+    background-color: #ed2828;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 8px;
+    color: white;
+}
+
+.promo-button:hover {
+    background-color: #c22323;
+}
+
+.vendor-items {
+    margin: auto;
+    width: 350px;
+}
+
+.item-image {
+    height: 100px;
+}
+
+.item-image-icon {
+    border-radius: 100%;
+    background-color: #c22323;
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 10px;
+    box-shadow: 5px 2.5px 10px #BBBBBB;
+}
+
